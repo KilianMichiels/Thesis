@@ -1,8 +1,16 @@
-# READ ME
+# Application & Script Manual
 
 - Author: Kilian Michiels
 - Thesis: Smart Office: Een intelligente werkomgeving door gebruik te maken van Internet Of Things
 - Date: 2017-06-02
+
+## Table Of Contents
+- [General Information](https://github.com/Michielskilian/Test/blob/master/README.md#general-information)
+- [Ubuntu installation](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation)
+- [ROS installation](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation)
+- [Pod installation](https://github.com/Michielskilian/Test/blob/master/README.md#pod-installation)
+- [Applications](https://github.com/Michielskilian/Test/blob/master/README.md#applications)
+- [How to run the tests](https://github.com/Michielskilian/Test/blob/master/README.md#how-to-run-the-tests)
 
 ## General information
 To use all of the software, you will need:
@@ -107,7 +115,7 @@ To get the data from the application you can run 'getApplicationData.py'
 - Insert this in the application while you are on the same network and add ':9090' at the end.
 - Press 'Connect' and the application should connect to your ROS network.
 
-## How to run tests
+## How to run the tests
 These instructions are written for the 6 tests which can be done with the Python scripts or the applications.
 
 
