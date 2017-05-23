@@ -25,9 +25,9 @@ To run some of the applications, you will need Pods which are used to automatica
 How to install Pod:
 
 1. Open Terminal.
-2. Enter 'sudo gem install cocoapods' command in terminal.
+2. Enter `sudo gem install cocoapods` command in terminal.
 
-When using a project with a podfile, before opening any of the projects, navigate in the Terminal to the working directory and enter the command 'pod install'.
+When using a project with a podfile, before opening any of the projects, navigate in the Terminal to the working directory and enter the command `pod install`.
 
 When the installation was successful, you can open the workspace to run the project.
 
@@ -41,18 +41,18 @@ Note 3: If this is your first time using Pods, please read [Pod installation](ht
 ### Without ROS
 /Double1_IOS/Without_ROS/Basic-Control-SDK-iOS-master/DoubleBasicHelloWorld:
 
-    - Open DoubleBasicHelloWorld.xcodeproj in XCode.
-    - Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
-    - If the DoubleControlSDK framework isn't in the project you can download it here: https://github.com/doublerobotics/Basic-Control-SDK-iOS
-    - Run DoubleBasicHelloWorld.xcodeproj with XCode.
-    - Make sure the Double and the iPad are close enough to each other AND they are connected through Bluetooth.
+1. Open DoubleBasicHelloWorld.xcodeproj in XCode.
+2. Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
+3. If the DoubleControlSDK framework isn't in the project you can download it here: https://github.com/doublerobotics/Basic-Control-SDK-iOS
+4. Run DoubleBasicHelloWorld.xcodeproj with XCode.
+5. Make sure the Double and the iPad are close enough to each other AND they are connected through Bluetooth.
 
- /Double1_IOS/Without_ROS/openCVTestApplication:
+/Double1_IOS/Without_ROS/openCVTestApplication:
  
-    - Open openCVTestApplication.xcworkspace in XCode.
-    - Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
-    - Don't forget to run the 'pod install' command in Terminal before opening the workspace.
-    - You should be able to run the project on the iPad.
+- Open openCVTestApplication.xcworkspace in XCode.
+- Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
+- Don't forget to run the 'pod install' command in Terminal before opening the workspace.
+- You should be able to run the project on the iPad.
 
 /Double1_IOS/Without_ROS/Kairos-SDK-iOS-master/KairosSDKExampleApp:
 
@@ -62,14 +62,14 @@ Note 3: If this is your first time using Pods, please read [Pod installation](ht
 
 /Double1_IOS/Without_ROS/FacialRecognition/:
 
-    - Run 'pod install' in the working directory.
+    - Run `pod install` in the working directory.
     - Open FacialRecognition.xcworkspace in XCode.
     - Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
     - Run the application on the iPad.
 
 /Double1_IOS/Without_ROS/FacialRecognition_Database_Test:
 
-    - Run 'pod install' in the working directory.
+    - Run `pod install` in the working directory.
     - Open FacialRecognition.xcworkspace in XCode.
     - Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
     - Run the application on the iPad.
@@ -80,7 +80,7 @@ For these applications you will need ROS running on your computer. To install th
 
 /Double1_IOS/With_ROS/FacialRecognition_With_ROS:
 
-    - Run 'pod install' in the working directory.
+    - Run `pod install` in the working directory.
     - Open FacialRecognition.xcworkspace in XCode. (Don't run it yet!)
     - Start your virtual machine with Ubuntu and ROS.
     - 
