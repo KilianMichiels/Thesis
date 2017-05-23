@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0721D7121985D01C0062A301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0721D7111985D01C0062A301 /* Foundation.framework */; };
+		0721D7141985D01C0062A301 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0721D7131985D01C0062A301 /* CoreGraphics.framework */; };
+		0721D7161985D01C0062A301 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0721D7151985D01C0062A301 /* UIKit.framework */; };
+		0721D71E1985D01C0062A301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721D71D1985D01C0062A301 /* main.m */; };
+		0721D7281985D01C0062A301 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0721D7261985D01C0062A301 /* Main_iPad.storyboard */; };
+		0721D72B1985D01C0062A301 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0721D72A1985D01C0062A301 /* ViewController.m */; };
+		0721D72D1985D01C0062A301 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0721D72C1985D01C0062A301 /* Images.xcassets */; };
+		0721D74A1985D0360062A301 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0721D7491985D0360062A301 /* CoreImage.framework */; };
+		0721D74C1985D03B0062A301 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0721D74B1985D03B0062A301 /* CoreMedia.framework */; };
+		0721D74E1985D0410062A301 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0721D74D1985D0410062A301 /* AVFoundation.framework */; };
+		0721D7501985D0450062A301 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0721D74F1985D0450062A301 /* AudioToolbox.framework */; };
+		072D688F198AD25400EF34D8 /* libKairosSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 072D688E198AD25400EF34D8 /* libKairosSDK.a */; };
+		390C75241E8BE7EC0063F4A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390C75231E8BE7EC0063F4A1 /* QuartzCore.framework */; };
+		390C75261E8BFC3F0063F4A1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390C75251E8BFC3F0063F4A1 /* CoreVideo.framework */; };
+		390C75311E8BFCF60063F4A1 /* ComparableColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 390C75281E8BFCF60063F4A1 /* ComparableColor.m */; };
+		390C75321E8BFCF60063F4A1 /* CVImageBufferWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 390C752A1E8BFCF60063F4A1 /* CVImageBufferWrapper.m */; };
+		390C75331E8BFCF60063F4A1 /* MotionDetectingVideoOutputAnalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 390C752D1E8BFCF60063F4A1 /* MotionDetectingVideoOutputAnalizer.m */; };
+		390C75341E8BFCF60063F4A1 /* VideoMotionDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 390C752F1E8BFCF60063F4A1 /* VideoMotionDetector.m */; };
+		394B1F5A1E8955FC008930D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B1F591E8955FC008930D9 /* SecondViewController.m */; };
+		394B1F9C1E895C69008930D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 394B1F9A1E895C69008930D9 /* AppDelegate.m */; };
+		39BB83141E8A8DFE00A35691 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB83131E8A8DFE00A35691 /* FeedbackViewController.m */; };
+		39BB831F1E8AA85000A35691 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BB831E1E8AA85000A35691 /* MessageUI.framework */; };
+		39BB83511E8AB37800A35691 /* NewFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB83501E8AB37800A35691 /* NewFaceViewController.m */; };
+		39BB83541E8ABEF700A35691 /* FaceDeletedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB83531E8ABEF700A35691 /* FaceDeletedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0721D70E1985D01C0062A301 /* KairosSDKExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KairosSDKExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0721D7111985D01C0062A301 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0721D7131985D01C0062A301 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0721D7151985D01C0062A301 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0721D7191985D01C0062A301 /* KairosSDKExampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KairosSDKExampleApp-Info.plist"; sourceTree = "<group>"; };
+		0721D71B1985D01C0062A301 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0721D71D1985D01C0062A301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0721D71F1985D01C0062A301 /* KairosSDKExampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KairosSDKExampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		0721D7271985D01C0062A301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0721D7291985D01C0062A301 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0721D72A1985D01C0062A301 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0721D72C1985D01C0062A301 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0721D7491985D0360062A301 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0721D74B1985D03B0062A301 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0721D74D1985D0410062A301 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0721D74F1985D0450062A301 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		072D6889198AD0DD00EF34D8 /* KairosSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KairosSDK.h; sourceTree = "<group>"; };
+		072D688E198AD25400EF34D8 /* libKairosSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKairosSDK.a; path = "../Kairos-SDK-iOS/libKairosSDK.a"; sourceTree = "<group>"; };
+		390C75231E8BE7EC0063F4A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		390C75251E8BFC3F0063F4A1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		390C75271E8BFCF60063F4A1 /* ComparableColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComparableColor.h; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/ComparableColor.h"; sourceTree = "<group>"; };
+		390C75281E8BFCF60063F4A1 /* ComparableColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComparableColor.m; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/ComparableColor.m"; sourceTree = "<group>"; };
+		390C75291E8BFCF60063F4A1 /* CVImageBufferWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVImageBufferWrapper.h; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/CVImageBufferWrapper.h"; sourceTree = "<group>"; };
+		390C752A1E8BFCF60063F4A1 /* CVImageBufferWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVImageBufferWrapper.m; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/CVImageBufferWrapper.m"; sourceTree = "<group>"; };
+		390C752B1E8BFCF60063F4A1 /* ImageBufferWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBufferWrapper.h; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/ImageBufferWrapper.h"; sourceTree = "<group>"; };
+		390C752C1E8BFCF60063F4A1 /* MotionDetectingVideoOutputAnalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotionDetectingVideoOutputAnalizer.h; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/MotionDetectingVideoOutputAnalizer.h"; sourceTree = "<group>"; };
+		390C752D1E8BFCF60063F4A1 /* MotionDetectingVideoOutputAnalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MotionDetectingVideoOutputAnalizer.m; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/MotionDetectingVideoOutputAnalizer.m"; sourceTree = "<group>"; };
+		390C752E1E8BFCF60063F4A1 /* VideoMotionDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoMotionDetector.h; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/VideoMotionDetector.h"; sourceTree = "<group>"; };
+		390C752F1E8BFCF60063F4A1 /* VideoMotionDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoMotionDetector.m; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/VideoMotionDetector.m"; sourceTree = "<group>"; };
+		390C75301E8BFCF60063F4A1 /* VideoMotionDetectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoMotionDetectorDelegate.h; path = "../../../../../../../../../../../../../../Downloads/MotionDetector-master/MotionDetector/VideoMotionDetection/VideoMotionDetectorDelegate.h"; sourceTree = "<group>"; };
+		394B1F581E8955FC008930D9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		394B1F591E8955FC008930D9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		394B1F9A1E895C69008930D9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		394B1F9B1E895C69008930D9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39BB83121E8A8DFE00A35691 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		39BB83131E8A8DFE00A35691 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		39BB831E1E8AA85000A35691 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		39BB834F1E8AB37800A35691 /* NewFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFaceViewController.h; sourceTree = "<group>"; };
+		39BB83501E8AB37800A35691 /* NewFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFaceViewController.m; sourceTree = "<group>"; };
+		39BB83521E8ABEF700A35691 /* FaceDeletedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDeletedViewController.h; sourceTree = "<group>"; };
+		39BB83531E8ABEF700A35691 /* FaceDeletedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDeletedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0721D70B1985D01C0062A301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390C75261E8BFC3F0063F4A1 /* CoreVideo.framework in Frameworks */,
+				390C75241E8BE7EC0063F4A1 /* QuartzCore.framework in Frameworks */,
+				0721D74E1985D0410062A301 /* AVFoundation.framework in Frameworks */,
+				39BB831F1E8AA85000A35691 /* MessageUI.framework in Frameworks */,
+				072D688F198AD25400EF34D8 /* libKairosSDK.a in Frameworks */,
+				0721D7501985D0450062A301 /* AudioToolbox.framework in Frameworks */,
+				0721D74C1985D03B0062A301 /* CoreMedia.framework in Frameworks */,
+				0721D74A1985D0360062A301 /* CoreImage.framework in Frameworks */,
+				0721D7141985D01C0062A301 /* CoreGraphics.framework in Frameworks */,
+				0721D7161985D01C0062A301 /* UIKit.framework in Frameworks */,
+				0721D7121985D01C0062A301 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0721D7051985D01C0062A301 = {
+			isa = PBXGroup;
+			children = (
+				072D6889198AD0DD00EF34D8 /* KairosSDK.h */,
+				0721D7171985D01C0062A301 /* KairosSDKExampleApp */,
+				0721D7101985D01C0062A301 /* Frameworks */,
+				0721D70F1985D01C0062A301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0721D70F1985D01C0062A301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0721D70E1985D01C0062A301 /* KairosSDKExampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0721D7101985D01C0062A301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				390C75251E8BFC3F0063F4A1 /* CoreVideo.framework */,
+				390C75231E8BE7EC0063F4A1 /* QuartzCore.framework */,
+				39BB831E1E8AA85000A35691 /* MessageUI.framework */,
+				072D688E198AD25400EF34D8 /* libKairosSDK.a */,
+				0721D74F1985D0450062A301 /* AudioToolbox.framework */,
+				0721D74D1985D0410062A301 /* AVFoundation.framework */,
+				0721D74B1985D03B0062A301 /* CoreMedia.framework */,
+				0721D7491985D0360062A301 /* CoreImage.framework */,
+				0721D7111985D01C0062A301 /* Foundation.framework */,
+				0721D7131985D01C0062A301 /* CoreGraphics.framework */,
+				0721D7151985D01C0062A301 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0721D7171985D01C0062A301 /* KairosSDKExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				390C75351E8BFD010063F4A1 /* Motion Detection */,
+				390C75361E8C077F0063F4A1 /* Interface */,
+				0721D7261985D01C0062A301 /* Main_iPad.storyboard */,
+				394B1F9B1E895C69008930D9 /* AppDelegate.h */,
+				394B1F9A1E895C69008930D9 /* AppDelegate.m */,
+				0721D72C1985D01C0062A301 /* Images.xcassets */,
+				0721D7181985D01C0062A301 /* Supporting Files */,
+			);
+			path = KairosSDKExampleApp;
+			sourceTree = "<group>";
+		};
+		0721D7181985D01C0062A301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0721D7191985D01C0062A301 /* KairosSDKExampleApp-Info.plist */,
+				0721D71A1985D01C0062A301 /* InfoPlist.strings */,
+				0721D71D1985D01C0062A301 /* main.m */,
+				0721D71F1985D01C0062A301 /* KairosSDKExampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		390C75351E8BFD010063F4A1 /* Motion Detection */ = {
+			isa = PBXGroup;
+			children = (
+				390C75271E8BFCF60063F4A1 /* ComparableColor.h */,
+				390C75281E8BFCF60063F4A1 /* ComparableColor.m */,
+				390C75291E8BFCF60063F4A1 /* CVImageBufferWrapper.h */,
+				390C752A1E8BFCF60063F4A1 /* CVImageBufferWrapper.m */,
+				390C752B1E8BFCF60063F4A1 /* ImageBufferWrapper.h */,
+				390C752C1E8BFCF60063F4A1 /* MotionDetectingVideoOutputAnalizer.h */,
+				390C752D1E8BFCF60063F4A1 /* MotionDetectingVideoOutputAnalizer.m */,
+				390C752E1E8BFCF60063F4A1 /* VideoMotionDetector.h */,
+				390C752F1E8BFCF60063F4A1 /* VideoMotionDetector.m */,
+				390C75301E8BFCF60063F4A1 /* VideoMotionDetectorDelegate.h */,
+			);
+			name = "Motion Detection";
+			sourceTree = "<group>";
+		};
+		390C75361E8C077F0063F4A1 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				0721D7291985D01C0062A301 /* ViewController.h */,
+				0721D72A1985D01C0062A301 /* ViewController.m */,
+				394B1F581E8955FC008930D9 /* SecondViewController.h */,
+				394B1F591E8955FC008930D9 /* SecondViewController.m */,
+				39BB83121E8A8DFE00A35691 /* FeedbackViewController.h */,
+				39BB83131E8A8DFE00A35691 /* FeedbackViewController.m */,
+				39BB834F1E8AB37800A35691 /* NewFaceViewController.h */,
+				39BB83501E8AB37800A35691 /* NewFaceViewController.m */,
+				39BB83521E8ABEF700A35691 /* FaceDeletedViewController.h */,
+				39BB83531E8ABEF700A35691 /* FaceDeletedViewController.m */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0721D70D1985D01C0062A301 /* KairosSDKExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0721D7431985D01C0062A301 /* Build configuration list for PBXNativeTarget "KairosSDKExampleApp" */;
+			buildPhases = (
+				0721D70A1985D01C0062A301 /* Sources */,
+				0721D70B1985D01C0062A301 /* Frameworks */,
+				0721D70C1985D01C0062A301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KairosSDKExampleApp;
+			productName = KairosSDKExampleApp;
+			productReference = 0721D70E1985D01C0062A301 /* KairosSDKExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0721D7061985D01C0062A301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kairos;
+				TargetAttributes = {
+					0721D70D1985D01C0062A301 = {
+						DevelopmentTeam = W5B75GH7D5;
+					};
+				};
+			};
+			buildConfigurationList = 0721D7091985D01C0062A301 /* Build configuration list for PBXProject "KairosSDKExampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0721D7051985D01C0062A301;
+			productRefGroup = 0721D70F1985D01C0062A301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0721D70D1985D01C0062A301 /* KairosSDKExampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0721D70C1985D01C0062A301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0721D7281985D01C0062A301 /* Main_iPad.storyboard in Resources */,
+				0721D72D1985D01C0062A301 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0721D70A1985D01C0062A301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394B1F9C1E895C69008930D9 /* AppDelegate.m in Sources */,
+				390C75311E8BFCF60063F4A1 /* ComparableColor.m in Sources */,
+				394B1F5A1E8955FC008930D9 /* SecondViewController.m in Sources */,
+				390C75321E8BFCF60063F4A1 /* CVImageBufferWrapper.m in Sources */,
+				39BB83511E8AB37800A35691 /* NewFaceViewController.m in Sources */,
+				39BB83141E8A8DFE00A35691 /* FeedbackViewController.m in Sources */,
+				39BB83541E8ABEF700A35691 /* FaceDeletedViewController.m in Sources */,
+				0721D72B1985D01C0062A301 /* ViewController.m in Sources */,
+				390C75331E8BFCF60063F4A1 /* MotionDetectingVideoOutputAnalizer.m in Sources */,
+				390C75341E8BFCF60063F4A1 /* VideoMotionDetector.m in Sources */,
+				0721D71E1985D01C0062A301 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0721D71A1985D01C0062A301 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0721D71B1985D01C0062A301 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0721D7261985D01C0062A301 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0721D7271985D01C0062A301 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0721D7411985D01C0062A301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0721D7421985D01C0062A301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0721D7441985D01C0062A301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = W5B75GH7D5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KairosSDKExampleApp/KairosSDKExampleApp-Prefix.pch";
+				INFOPLIST_FILE = "KairosSDKExampleApp/KairosSDKExampleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../Kairos-SDK-iOS/",
+					.,
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michiels.kilian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0721D7451985D01C0062A301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = W5B75GH7D5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KairosSDKExampleApp/KairosSDKExampleApp-Prefix.pch";
+				INFOPLIST_FILE = "KairosSDKExampleApp/KairosSDKExampleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../Kairos-SDK-iOS/",
+					.,
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michiels.kilian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0721D7091985D01C0062A301 /* Build configuration list for PBXProject "KairosSDKExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0721D7411985D01C0062A301 /* Debug */,
+				0721D7421985D01C0062A301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0721D7431985D01C0062A301 /* Build configuration list for PBXNativeTarget "KairosSDKExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0721D7441985D01C0062A301 /* Debug */,
+				0721D7451985D01C0062A301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0721D7061985D01C0062A301 /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - AppAuth (0.9.0)
+  - mailcore2-ios (0.6.4)
+
+DEPENDENCIES:
+  - AppAuth
+  - mailcore2-ios
+
+SPEC CHECKSUMS:
+  AppAuth: 4fabb6b8068a2e61b914b41071bdbd95da2c9553
+  mailcore2-ios: 3ff0be2fa553d4da9c11d39c11d51863c768f24f
+
+PODFILE CHECKSUM: cec811effcc8e78d91e355b848004c285c2c597c
+
+COCOAPODS: 1.2.1

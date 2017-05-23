@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bYS-os-1E2">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controlleri Phone-->
+        <scene sceneID="mPw-nu-GhJ">
+            <objects>
+                <viewController id="bYS-os-1E2" customClass="ViewControlleriPhone" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hdd-9d-oMI"/>
+                        <viewControllerLayoutGuide type="bottom" id="m1u-vc-j3h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="led-Ot-RfT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbB-f3-42C">
+                                <rect key="frame" x="16" y="28" width="288" height="324"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="324" id="D2G-Aq-G0U"/>
+                                    <constraint firstAttribute="width" constant="288" id="qve-U6-9P0"/>
+                                </constraints>
+                                <string key="text">Hello! My name is Kilian Michiels and I'm a thesis student, working on roboreception. The idea is to create a robot which can help the reception to identify incoming visitors with the help of facial recognition and to help these people finding their appointments in an easy, friendly way. To improve my application, I need feedback about the idea of facial recognition. And about this application: What do you think of it? Do you think it's an improvement? 
+
+If you want, you can press the button below to test out the facial recognition and to add your face to the databse. So you will be recognised in the future and hopefully enjoy the experience!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7M-Yk-mwh">
+                                <rect key="frame" x="16" y="360" width="288" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="Atr-dw-jVk"/>
+                                    <constraint firstAttribute="width" constant="288" id="pxj-54-agb"/>
+                                </constraints>
+                                <state key="normal" title="Push me! :)"/>
+                                <connections>
+                                    <action selector="tappedStartButton:" destination="bYS-os-1E2" eventType="touchUpInside" id="7fU-WJ-n9d"/>
+                                    <action selector="tappedStartButtoniPhone:" destination="bYS-os-1E2" eventType="touchUpInside" id="XTH-pr-JDU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mbB-f3-42C" firstAttribute="top" secondItem="Hdd-9d-oMI" secondAttribute="bottom" constant="8" symbolic="YES" id="R05-eT-vvD"/>
+                            <constraint firstItem="k7M-Yk-mwh" firstAttribute="leading" secondItem="led-Ot-RfT" secondAttribute="leadingMargin" id="fSN-eB-moa"/>
+                            <constraint firstItem="k7M-Yk-mwh" firstAttribute="top" secondItem="mbB-f3-42C" secondAttribute="bottom" constant="8" symbolic="YES" id="fwU-9H-0zC"/>
+                            <constraint firstItem="mbB-f3-42C" firstAttribute="trailing" secondItem="k7M-Yk-mwh" secondAttribute="trailing" id="iXE-P1-Cc2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="lQq-N2-kxb" kind="presentation" identifier="toHello" id="d1C-KX-LOM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xl1-Hb-lGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-311.25" y="144.71830985915494"/>
+        </scene>
+        <!--Second View Controlleri Phone-->
+        <scene sceneID="Vdf-Z0-HzS">
+            <objects>
+                <viewController id="lQq-N2-kxb" customClass="SecondViewControlleriPhone" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WQt-3H-VPI"/>
+                        <viewControllerLayoutGuide type="bottom" id="QbY-ck-vRh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ARz-Af-dE6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofU-GA-9dV">
+                                <rect key="frame" x="16" y="28" width="288" height="482"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="Irn-BJ-h1V"/>
+                                    <constraint firstAttribute="height" constant="482" id="zK6-g9-flu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7E-30-iem">
+                                <rect key="frame" x="16" y="518" width="288" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="QPw-pd-vR2"/>
+                                    <constraint firstAttribute="height" constant="30" id="mPF-tA-mdI"/>
+                                </constraints>
+                                <state key="normal" title="Go back!"/>
+                                <connections>
+                                    <action selector="goBackPushed:" destination="lQq-N2-kxb" eventType="touchUpInside" id="ifj-ey-gNp"/>
+                                    <segue destination="bYS-os-1E2" kind="show" identifier="toWelcome" id="d3P-pt-hek"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K7E-30-iem" firstAttribute="top" secondItem="ofU-GA-9dV" secondAttribute="bottom" constant="8" symbolic="YES" id="9Tt-cJ-a1P"/>
+                            <constraint firstItem="ofU-GA-9dV" firstAttribute="top" secondItem="WQt-3H-VPI" secondAttribute="bottom" constant="8" symbolic="YES" id="NOT-JJ-a0Y"/>
+                            <constraint firstItem="ofU-GA-9dV" firstAttribute="leading" secondItem="ARz-Af-dE6" secondAttribute="leadingMargin" id="eGz-sH-bsm"/>
+                            <constraint firstItem="ofU-GA-9dV" firstAttribute="leading" secondItem="K7E-30-iem" secondAttribute="leading" id="kVc-zN-fg7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="goBack" destination="K7E-30-iem" id="cN7-dJ-KTJ"/>
+                        <outlet property="goBackiPhone" destination="K7E-30-iem" id="vET-RU-kJb"/>
+                        <outlet property="greetingText" destination="ofU-GA-9dV" id="FAQ-9S-EIH"/>
+                        <outlet property="greetingTextiPhone" destination="ofU-GA-9dV" id="Gwv-fB-Mfb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LAv-nc-g6h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="453.75" y="144.71830985915494"/>
+        </scene>
+    </scenes>
+</document>
