@@ -118,4 +118,31 @@ To get the data from the application you can run 'getApplicationData.py'
 ## How to run the tests
 These instructions are written for the 6 tests which can be done with the Python scripts or the applications.
 
+Note 1: The folder 'faces95' has 7411 faces for the facial recognition test. Do not change this folder!
+
+Note 2: All of the scripts are self explanatory. They provide a short introduction at the beginning of each script. Any additional things to do before you can run the script will be written with each title corresponding to the test.
+
+### /python/Test_ROS_N_Doubles.py:
+- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
+- Open a terminal in Ubuntu and enter `roscore`.
+- If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
+- Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
+- Run the script with `python Test_ROS_N_Doubles.py`.
+- The script will ask you the necessary input.
+
+### /python/Test_1_Double_N_Messages_Receive_On_Double.py
+
+
+### /python/Test_1_Double_N_Messages.py
+
+
+### /python/Test_Gezichtsherkenning.py
+
+
+### /python/Test_ROS_1_Double_N_Messages.py
+
+
+### /Double1_IOS/With_ROS/DoubleIOSWithROS/Python:
+
+
 
