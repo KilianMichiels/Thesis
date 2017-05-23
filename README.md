@@ -10,7 +10,7 @@ To use all of the software, you will need:
 1. [Python](https://www.python.org/) 2.7 or higher
 2. [OpenCV](http://opencv.org/) 2.4.13.2 or higher
 3. [XCode 8.3](https://developer.apple.com/download/) or higher (App Store)
-4. Virtual Machine with Ubuntu 14.04 (see Ubuntu installation) and ROS indigo (see ROS installation).
+4. Virtual Machine with Ubuntu 14.04 (see [Ubuntu installation](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation)) and ROS indigo (see [ROS installation](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation)).
 
 ## Ubuntu installation
 If you don't have any virtual machine installed, do this first (https://www.virtualbox.org/wiki/Downloads).
@@ -19,7 +19,7 @@ Visit the following page to get Ubuntu 14.04: http://releases.ubuntu.com/14.04/
 ## ROS installation
 Visit the following page to install ROS Indigo: http://wiki.ros.org/indigo/Installation/Ubuntu
 
-## Pod install
+## Pod installation
 To run some of the applications, you will need Pods which are used to automatically install the right packages and frameworks.
 
 How to install Pod:
@@ -36,7 +36,7 @@ Note 1: Every file is referenced from the root folder 'Masterproef'.
 
 Note 2: Every app needs an iPad to run correctly.
 
-Note 3: If this is your first time using Pods, please read 'Pod install' first.
+Note 3: If this is your first time using Pods, please read [Pod installation](https://github.com/Michielskilian/Test/blob/master/README.md#pod-installation) first.
 
 ### Without ROS
 /Double1_IOS/Without_ROS/Basic-Control-SDK-iOS-master/DoubleBasicHelloWorld:
