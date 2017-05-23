@@ -78,7 +78,7 @@ Note 3: If this is your first time using Pods, please read [Pod installation](ht
 The only difference between FacialRecognition and FacialRecognition_Database_Test is the extra view to go to the testpage which corresponds to the test about the database on the iPad (see 'How to run tests').
 
 ### With ROS
-For these applications you will need ROS running on your computer. To install this, check
+For these applications you will need ROS running on your computer. To install this, check [ROS installation](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
 
 /Double1_IOS/With_ROS/FacialRecognition_With_ROS:
 
@@ -89,6 +89,20 @@ For these applications you will need ROS running on your computer. To install th
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
 
+/Double1_IOS/With_ROS/DoubleIOSWithROS:
+
+- Run `pod install` in the working directory.
+- Open ROSApplication.xcworkspace in XCode.
+- At this point, you can already run the application.
+- Start your virtual machine with Ubuntu and ROS.
+- Open a terminal in Ubuntu and enter `roscore`.
+- If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
+- Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
+- On the same computer, in your virtual machine, check your IP with `hostname -I`.
+- Insert this in the application while you are on the same network.
+- Press 'Connect' and the application should connect to your ROS network.
 
 ## How to run tests
 These instructions are written for the 6 tests which can be done with the Python scripts or the applications.
+
+
