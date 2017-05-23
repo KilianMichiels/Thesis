@@ -123,6 +123,17 @@ Note 1: The folder 'faces95' has 7411 faces for the facial recognition test. Do 
 Note 2: All of the scripts are self explanatory. They provide a short introduction at the beginning of each script. Any additional things to do before you can run the script will be written with each title corresponding to the test.
 
 ### /python/Test_ROS_N_Doubles.py:
+    --------------------------------------------
+    TEST: Simuleer N Double’s die op het ROS
+    netwerk aangesloten zijn. Wat gebeurt er?
+
+    TEST: Simulate N Double's which are
+    connected to the ROS network at once.
+    What happens?
+    --------------------------------------------
+    This script will generate N Double's which try to connect to the ROS network simultaniously.
+    The total time to create all the publishers will be shown at the end of the program.
+
 - You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
 - Open a terminal in Ubuntu and enter `roscore`.
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
@@ -143,15 +154,64 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
     "Messages received: <count>" panel.
 
 ### /python/Test_1_Double_N_Messages.py
+    --------------------------------------------
+    TEST: Simuleer 1 Double die N ROS berichten
+          verzendt. Wat gebeurt er?
+
+    TEST: Simulate 1 Double which sends N ROS
+          messages. What happens?
+    --------------------------------------------
+    This script will try to receive N messages which are sends through the
+    the firmware channel of the Double topic 'Double_1/firmwareVersion'.
+    The difference between the time of transmission and the time of
+    arrival will be calculated and shown during the program.
 
 
 ### /python/Test_Gezichtsherkenning.py
+    --------------------------------------------
+    TEST: Voeg N gezichten toe aan de DB.
+          Hoe goed scoort de applicatie?
 
+    TEST: Add N faces to the database.
+          How good does the application work?
+    --------------------------------------------
+    For this script, all the databases are already filled in.
+    Each database has a number of people in it and each person
+    has a number of photos. These numbers depend on the database.
+
+    At the end of the test the number of correct guesses will be
+    displayed. If you want, you can change the parameter 'verbose' to
+    'True' which will output extra information while
+    the program is running.
 
 ### /python/Test_ROS_1_Double_N_Messages.py
+    --------------------------------------------
+    TEST: Simuleer 1 Double die N ROS berichten
+          moet verwerken. Wat gebeurt er?
 
+    TEST: Simulate 1 Double which has to
+          process N ROS messages. What happens?
+    --------------------------------------------
+    This script will try to receive N messages which are sends through the
+    the firmware channel of the Double topic 'Double_1/firmwareVersion'.
+    The difference between the time of transmission and the time of
+    arrival will be calculated and shown during the program.
 
 ### /Double1_IOS/With_ROS/DoubleIOSWithROS/Python:
-
-
-
+    ------------------------- SESSION: {} -----------------------
+    ----------------------- NOT CONNECTED -----------------------
+    ------------------- Application Parameters: -----------------
+    |   success:                    <succes>
+    -------------------------------------------------------------
+    |   fails:                      <fails>
+    -------------------------------------------------------------
+    |   username:                   <username>
+    -------------------------------------------------------------
+    |   userTag:                    <userTag>
+    -------------------------------------------------------------
+    |   firstTime:                  <firstTime>
+    -------------------------------------------------------------
+    |   facialRecognitionMessage:   <facialRecognitionMessage>
+    -------------------------------------------------------------
+    |   viewFlow:                   <viewFlow>
+    -------------------------------------------------------------
