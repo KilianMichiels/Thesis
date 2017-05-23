@@ -177,7 +177,8 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
 - Open a terminal in Ubuntu and enter `roscore`.
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
-- Run the script with `python Test_ROS_N_Doubles.py`.
+- Run the DoubleIOSWithROS application (see [DoubleIOSWithROS](https://github.com/Michielskilian/Test/blob/master/README.md#double1_ioswith_rosdoubleioswithros)) and connect to the ROS Network.
+- Run the script with `python Test_1_Double_N_Messages_Receive_On_Double.py`.
 - The script will ask you the necessary input to start the test.
 
 ### /python/Test_1_Double_N_Messages.py
@@ -197,8 +198,11 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
 - Open a terminal in Ubuntu and enter `roscore`.
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
-- Run the script with `python Test_ROS_N_Doubles.py`.
-- The script will ask you the necessary input to start the test.
+- Run the DoubleIOSWithROS application (see [DoubleIOSWithROS](https://github.com/Michielskilian/Test/blob/master/README.md#double1_ioswith_rosdoubleioswithros)) and connect to the ROS Network.
+- Press the 'clear log' button on the iPad to set the number of received messages to 0.
+- Run the script with `python Test_1_Double_N_Messages.py`.
+- Press the 'Test' button on the iPad. This will send 1000 messages at a time for each push.
+- The script will give you the desired testdata.
 
 ### /python/Test_Gezichtsherkenning.py
     --------------------------------------------
@@ -217,31 +221,8 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
     'True' which will output extra information while
     the program is running.
 
-- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
-- Open a terminal in Ubuntu and enter `roscore`.
-- If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
-- Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
-- Run the script with `python Test_ROS_N_Doubles.py`.
-- The script will ask you the necessary input to start the test.
-
-### /python/Test_ROS_1_Double_N_Messages.py
-    --------------------------------------------
-    TEST: Simuleer 1 Double die N ROS berichten
-          moet verwerken. Wat gebeurt er?
-
-    TEST: Simulate 1 Double which has to
-          process N ROS messages. What happens?
-    --------------------------------------------
-    This script will try to receive N messages which are sends through the
-    the firmware channel of the Double topic 'Double_1/firmwareVersion'.
-    The difference between the time of transmission and the time of
-    arrival will be calculated and shown during the program.
-
-- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
-- Open a terminal in Ubuntu and enter `roscore`.
-- If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
-- Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
-- Run the script with `python Test_ROS_N_Doubles.py`.
+- You will need the Kairos library for Python: https://github.com/ffmmjj/kairos-face-sdk-python
+- Run the script with `python Test_Gezichtsherkenning.py`.
 - The script will ask you the necessary input to start the test.
 
 ### /Double1_IOS/With_ROS/DoubleIOSWithROS/Python:
@@ -286,5 +267,19 @@ With this script you will be able to control the Double on your computer. All of
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
 - Run the script with `python setControls`.
-- Then you have to connect the Double to the ROS network (see [DoubleIOSWithROS](#/Double1_IOS/With_ROS/DoubleIOSWithROS:))
+- Then you have to connect the Double to the ROS network (see [DoubleIOSWithROS](https://github.com/Michielskilian/Test/blob/master/README.md#double1_ioswith_rosdoubleioswithros))
 - It can be possible you have to restart the python script because the '/Double_1/controls' topic has to be published at least once for the Double to be able to subscribe to it.
+
+
+### Database test on the iPad
+
+This test does not require anything else than the iPad and the 'FacialRecognition_Database_Test' application.
+
+To start the test:
+
+- Run the application on the iPad.
+- Wait for the motion detection to start working.
+- Press the 'Go to test page' button.
+
+Here you can add a number of people to the database, delete the whole database or search for some people to determine the searchspeed.
+The inputfield at the bottom allows you to insert custom numbers. You can press 'Add N' or 'Search N' to add or search for people N times. N is the custom number you can fill in in the textfield.
