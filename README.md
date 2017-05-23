@@ -286,5 +286,5 @@ With this script you will be able to control the Double on your computer. All of
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
 - Run the script with `python setControls`.
-- Then you have to connect the Double to the ROS network (see [DoubleIOSWithROS](https://github.com/Michielskilian/Test/blob/master/README.md#/Double1_IOS/With_ROS/DoubleIOSWithROS:))
+- Then you have to connect the Double to the ROS network (see [DoubleIOSWithROS](#/Double1_IOS/With_ROS/DoubleIOSWithROS:))
 - It can be possible you have to restart the python script because the '/Double_1/controls' topic has to be published at least once for the Double to be able to subscribe to it.
