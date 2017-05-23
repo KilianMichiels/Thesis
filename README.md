@@ -128,10 +128,19 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
 - Run the script with `python Test_ROS_N_Doubles.py`.
-- The script will ask you the necessary input.
+- The script will ask you the necessary input to start the test.
 
 ### /python/Test_1_Double_N_Messages_Receive_On_Double.py
+    --------------------------------------------
+    TEST: Simuleer 1 Double die N ROS berichten
+          moet verwerken. Wat gebeurt er?
 
+    TEST: Simulate 1 Double which has to process
+          N ROS messages. What happens?
+    --------------------------------------------
+    This script will send 2*N*N controlmessages to the Double on the ROS netwerk.
+    These messages should be received on the Double side and counted and displayed in the
+    "Messages received: <count>" panel.
 
 ### /python/Test_1_Double_N_Messages.py
 
