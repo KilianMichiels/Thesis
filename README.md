@@ -52,12 +52,12 @@ Note 3: If this is your first time using Pods, please read [Pod installation](ht
 
 - Open DoubleBasicHelloWorld.xcodeproj in XCode.
 - Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
-- If the DoubleControlSDK framework isn't in the project you can download it here: https://github.com/doublerobotics/Basic-Control-SDK-iOS
+- If the DoubleControlSDK framework isn't in the project you can download it here: https://github.com/doublerobotics/Basic-Control-SDK-iOS and add it to the project frameworks.
 - Run DoubleBasicHelloWorld.xcodeproj with XCode.
 - Make sure the Double and the iPad are close enough to each other AND they are connected through Bluetooth.
 
 #### /Double1_IOS/Without_ROS/openCVTestApplication:
- 
+
 - Open openCVTestApplication.xcworkspace in XCode.
 - Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
 - Don't forget to run the 'pod install' command in Terminal before opening the workspace.
@@ -172,7 +172,7 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
     This script will send 2*N*N controlmessages to the Double on the ROS netwerk.
     These messages should be received on the Double side and counted and displayed in the
     "Messages received: <count>" panel.
-    
+
 - You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
 - Open a terminal in Ubuntu and enter `roscore`.
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
@@ -255,7 +255,7 @@ You will see the following data in your terminal:
     |                 Longitude:   <longitude>                  |
     |                 Latitude:    <latitude>                   |
     -------------------------------------------------------------
- 
+
 And an OpenCV view with the camerafeed.
 
 #### setControls.py
