@@ -20,7 +20,7 @@ To use all of the software, you will need:
 1. [Python](https://www.python.org/) 2.7 or higher
 2. [OpenCV](http://opencv.org/) 2.4.13.2 or higher
 3. [XCode 8.3](https://developer.apple.com/download/) or higher (App Store)
-4. Virtual Machine with Ubuntu 14.04 (see [Ubuntu installation](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation)) and ROS indigo (see [ROS installation](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation)).
+4. Virtual Machine with Ubuntu 14.04 (see [Ubuntu installation](https://github.com/Michielskilian/Thesis#ubuntu-installation)) and ROS indigo (see [ROS installation](https://github.com/Michielskilian/Thesis#ros-installation)).
 5. [ROSBridge](http://wiki.ros.org/rosbridge_suite) for Indigo.
 
 ## Ubuntu installation
@@ -47,7 +47,7 @@ Note 1: Every file is referenced from the root folder 'Masterproef'.
 
 Note 2: Every app needs an iPad to run correctly.
 
-Note 3: If this is your first time using Pods, please read [Pod installation](https://github.com/Michielskilian/Test/blob/master/README.md#pod-installation) first.
+Note 3: If this is your first time using Pods, please read [Pod installation](https://github.com/Michielskilian/Thesis#pod-installation) first.
 
 ### Without ROS
 #### /Double1_IOS/Without_ROS/Basic-Control-SDK-iOS-master/DoubleBasicHelloWorld:
@@ -88,7 +88,7 @@ Note 3: If this is your first time using Pods, please read [Pod installation](ht
 The only difference between FacialRecognition and FacialRecognition_Database_Test is the extra view to go to the testpage which corresponds to the test about the database on the iPad (see 'How to run tests').
 
 ### With ROS
-For these applications you will need ROS running on your computer. To install this, check [ROS installation](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
+For these applications you will need ROS running on your computer. To install this, check [ROS installation](https://github.com/Michielskilian/Thesis#ros-installation).
 
 #### /Double1_IOS/With_ROS/FacialRecognition_With_ROS:
 
@@ -158,7 +158,7 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
     This script will generate N Double's which try to connect to the ROS network simultaniously.
     The total time to create all the publishers will be shown at the end of the program.
 
-- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
+- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Thesis#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Thesis#ros-installation).
 - Open a terminal in Ubuntu and enter `roscore`.
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
@@ -177,11 +177,11 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
     These messages should be received on the Double side and counted and displayed in the
     "Messages received: <count>" panel.
 
-- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
+- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Thesis#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Thesis#ros-installation).
 - Open a terminal in Ubuntu and enter `roscore`.
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
-- Run the DoubleIOSWithROS application (see [DoubleIOSWithROS](https://github.com/Michielskilian/Test/blob/master/README.md#double1_ioswith_rosdoubleioswithros)) and connect to the ROS Network.
+- Run the DoubleIOSWithROS application (see [DoubleIOSWithROS](https://github.com/Michielskilian/Thesis#double1_ioswith_rosdoubleioswithros)) and connect to the ROS Network.
 - Run the script with `python Test_1_Double_N_Messages_Receive_On_Double.py`.
 - The script will ask you the necessary input to start the test.
 
@@ -198,11 +198,11 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
     The difference between the time of transmission and the time of
     arrival will be calculated and shown during the program.
 
-- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
+- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Thesis#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Thesis#ros-installation).
 - Open a terminal in Ubuntu and enter `roscore`.
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
-- Run the DoubleIOSWithROS application (see [DoubleIOSWithROS](https://github.com/Michielskilian/Test/blob/master/README.md#double1_ioswith_rosdoubleioswithros)) and connect to the ROS Network.
+- Run the DoubleIOSWithROS application (see [DoubleIOSWithROS](https://github.com/Michielskilian/Thesis#double1_ioswith_rosdoubleioswithros)) and connect to the ROS Network.
 - Press the 'clear log' button on the iPad to set the number of received messages to 0.
 - Run the script with `python Test_1_Double_N_Messages.py`.
 - Press the 'Test' button on the iPad. This will send 1000 messages at a time for each push.
@@ -266,12 +266,12 @@ And an OpenCV view with the camerafeed.
 
 With this script you will be able to control the Double on your computer. All of the controls are explained when you start the program.
 
-- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation).
+- You will need to run a virtual machine with [Ubuntu 14.04](https://github.com/Michielskilian/Thesis#ubuntu-installation) and [ROS indigo](https://github.com/Michielskilian/Thesis#ros-installation).
 - Open a terminal in Ubuntu and enter `roscore`.
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
 - Open another terminal and enter `roslaunch rosbridge_server rosbridge_websocket.launch`.
 - Run the script with `python setControls`.
-- Then you have to connect the Double to the ROS network (see [DoubleIOSWithROS](https://github.com/Michielskilian/Test/blob/master/README.md#double1_ioswith_rosdoubleioswithros))
+- Then you have to connect the Double to the ROS network (see [DoubleIOSWithROS](https://github.com/Michielskilian/Thesis#double1_ioswith_rosdoubleioswithros))
 - It can be possible you have to restart the python script because the '/Double_1/controls' topic has to be published at least once for the Double to be able to subscribe to it.
 
 
@@ -281,7 +281,7 @@ This test does not require anything else than the iPad and the 'FacialRecognitio
 
 To start the test:
 
-- Open FacialRecognition.xcworkspace in /Without_ROS/FacialRecognition_Database_Test/ (also see: [FacialRecognition_Database_Test](https://github.com/Michielskilian/Thesis/#double1_ioswithout_rosfacialrecognition_database_test)).
+- Open FacialRecognition.xcworkspace in /Without_ROS/FacialRecognition_Database_Test/ (also see: [FacialRecognition_Database_Test](https://github.com/Michielskilian/Thesis#double1_ioswithout_rosfacialrecognition_database_test)).
 - Run the application on the iPad.
 - If there is something not working you can follow the same steps as 
 - Wait for the motion detection to start working.
