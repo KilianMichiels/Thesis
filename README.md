@@ -100,7 +100,7 @@ For these applications you will need ROS running on your computer. To install th
 - Replace the IP in the 'FacialRecognition/General/constants.h' file with your IP and add ':9090' at the end.
 - Run the application. If the iPad is connected to the Double AND the ROS network, both bottom corners will be green.
 
-To get the data from the application you can run 'getApplicationData.py'
+To get the data from the application you can run 'getApplicationData.py' in /With_ROS/FacialRecognition_With_ROS/Python.
 
 You will see the following data in your terminal:
 
