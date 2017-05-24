@@ -19,7 +19,6 @@
 		022C411C17AE279C00385168 /* DRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022C411B17AE279C00385168 /* DRViewController.m */; };
 		022C411F17AE279C00385168 /* DRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022C411D17AE279C00385168 /* DRViewController.xib */; };
 		022C414F17AFA67700385168 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022C414E17AFA67700385168 /* ExternalAccessory.framework */; };
-		A810761A1EA0D9B700BCA85F /* DoubleControlSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81076191EA0D9B700BCA85F /* DoubleControlSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +39,6 @@
 		022C411B17AE279C00385168 /* DRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRViewController.m; sourceTree = "<group>"; };
 		022C411E17AE279C00385168 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DRViewController.xib; sourceTree = "<group>"; };
 		022C414E17AFA67700385168 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
-		A81076191EA0D9B700BCA85F /* DoubleControlSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoubleControlSDK.framework; path = DoubleBasicHelloWorld/DoubleControlSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A810761A1EA0D9B700BCA85F /* DoubleControlSDK.framework in Frameworks */,
 				022C414F17AFA67700385168 /* ExternalAccessory.framework in Frameworks */,
 				022C410317AE279C00385168 /* UIKit.framework in Frameworks */,
 				022C410517AE279C00385168 /* Foundation.framework in Frameworks */,
@@ -79,7 +76,6 @@
 		022C410117AE279C00385168 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A81076191EA0D9B700BCA85F /* DoubleControlSDK.framework */,
 				022C414E17AFA67700385168 /* ExternalAccessory.framework */,
 				022C410217AE279C00385168 /* UIKit.framework */,
 				022C410417AE279C00385168 /* Foundation.framework */,
