@@ -1,7 +1,7 @@
 # Application & Script Manual
 
 - Author: Kilian Michiels
-- Thesis: Smart Office: Een intelligente werkomgeving door gebruik te maken van Internet Of Things
+- Thesis: Smart Office: Een intelligente werkomgeving door gebruik te maken van Internet Of Things / Smart Office: An intelligent work environment through the Internet of Things
 - Date: 2017-06-02
 
 ## Table Of Contents
