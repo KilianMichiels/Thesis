@@ -24,11 +24,11 @@ To use all of the software, you will need:
 5. [ROSBridge](http://wiki.ros.org/rosbridge_suite) for Indigo.
 
 ## Ubuntu installation
-If you don't have any virtual machine installed, do this first (https://www.virtualbox.org/wiki/Downloads).
-Visit the following page to get Ubuntu 14.04: http://releases.ubuntu.com/14.04/
+If you don't have any virtual machine installed, do this first [Virtualbox](https://www.virtualbox.org/wiki/Downloads).
+Visit the following page to get Ubuntu 14.04: [Ubuntu 14.04 Downloads](http://releases.ubuntu.com/14.04/)
 
 ## ROS installation
-Visit the following page to install ROS Indigo: http://wiki.ros.org/indigo/Installation/Ubuntu
+Visit the following page to install ROS Indigo: [Indigo Installation](http://wiki.ros.org/indigo/Installation/Ubuntu)
 
 ## Pod installation
 To run some of the applications, you will need Pods which are used to automatically install the right packages and frameworks.
@@ -53,7 +53,7 @@ Note 3: If this is your first time using Pods, please read [Pod installation](ht
 #### /Double1_IOS/Without_ROS/Basic-Control-SDK-iOS-master/DoubleBasicHelloWorld:
 
 - Open DoubleBasicHelloWorld.xcodeproj in XCode.
-- Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
+- Change the developer signing to your own [Apple Developer Account](https://developer.apple.com/).
 - If the DoubleControlSDK framework isn't in the project you can download it here: https://github.com/doublerobotics/Basic-Control-SDK-iOS and add it to the project frameworks.
 - Run DoubleBasicHelloWorld.xcodeproj with XCode.
 - Make sure the Double and the iPad are close enough to each other AND they are connected through Bluetooth.
@@ -61,28 +61,28 @@ Note 3: If this is your first time using Pods, please read [Pod installation](ht
 #### /Double1_IOS/Without_ROS/openCVTestApplication:
 
 - Open openCVTestApplication.xcworkspace in XCode.
-- Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
+- Change the developer signing to your own [Apple Developer Account](https://developer.apple.com/).
 - Don't forget to run the 'pod install' command in Terminal before opening the workspace.
 - You should be able to run the project on the iPad.
 
 #### /Double1_IOS/Without_ROS/Kairos-SDK-iOS-master/KairosSDKExampleApp:
 
 - Open KairosSDKExampleApp.xcodeproj.
-- Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
+- Change the developer signing to your own [Apple Developer Account](https://developer.apple.com/).
 - Run the application on the iPad.
 
 #### /Double1_IOS/Without_ROS/FacialRecognition/:
 
 - Run `pod install` in the working directory.
 - Open FacialRecognition.xcworkspace in XCode.
-- Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
+- Change the developer signing to your own [Apple Developer Account](https://developer.apple.com/).
 - Run the application on the iPad.
 
 #### /Double1_IOS/Without_ROS/FacialRecognition_Database_Test:
 
 - Run `pod install` in the working directory.
 - Open FacialRecognition.xcworkspace in XCode.
-- Change the developer signing to your own Apple Developer Account (https://developer.apple.com/).
+- Change the developer signing to your own [Apple Developer Account](https://developer.apple.com/).
 - Run the application on the iPad.
 
 The only difference between FacialRecognition and FacialRecognition_Database_Test is the extra view to go to the testpage which corresponds to the test about the database on the iPad (see 'How to run tests').
@@ -94,6 +94,7 @@ For these applications you will need ROS running on your computer. To install th
 
 - Run `pod install` in the working directory.
 - Open FacialRecognition.xcworkspace in XCode. (Don't run it yet!)
+- Change the developer signing to your own [Apple Developer Account](https://developer.apple.com/).
 - Start your virtual machine with Ubuntu and ROS.
 - Open a terminal in Ubuntu and enter `roscore`.
 - If you haven't installed [ROSBridge](http://wiki.ros.org/rosbridge_suite), do it now.
@@ -128,6 +129,7 @@ You will see the following data in your terminal:
 
 - Run `pod install` in the working directory.
 - Open ROSApplication.xcworkspace in XCode.
+- Change the developer signing to your own [Apple Developer Account](https://developer.apple.com/).
 - At this point, you can already run the application.
 - Start your virtual machine with Ubuntu and ROS.
 - Open a terminal in Ubuntu and enter `roscore`.
@@ -223,7 +225,7 @@ Note 2: All of the scripts are self explanatory. They provide a short introducti
     'True' which will output extra information while
     the program is running.
 
-- You will need the Kairos library for Python: https://github.com/ffmmjj/kairos-face-sdk-python
+- You will need the Kairos library for Python: [kairos-face-sdk-python](https://github.com/ffmmjj/kairos-face-sdk-python)
 - Run the script with `python Test_Gezichtsherkenning.py`.
 - The script will ask you the necessary input to start the test.
 
@@ -279,7 +281,9 @@ This test does not require anything else than the iPad and the 'FacialRecognitio
 
 To start the test:
 
+- Open FacialRecognition.xcworkspace in /Without_ROS/FacialRecognition_Database_Test/ (also see: [FacialRecognition_Database_Test](https://github.com/Michielskilian/Thesis/#double1_ioswithout_rosfacialrecognition_database_test)).
 - Run the application on the iPad.
+- If there is something not working you can follow the same steps as 
 - Wait for the motion detection to start working.
 - Press the 'Go to test page' button.
 
