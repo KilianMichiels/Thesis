@@ -7,12 +7,12 @@
 - Date: 2017-06-02
 
 ## Table Of Contents
-- [General Information](https://github.com/Michielskilian/Test/blob/master/README.md#general-information)
-- [Ubuntu installation](https://github.com/Michielskilian/Test/blob/master/README.md#ubuntu-installation)
-- [ROS installation](https://github.com/Michielskilian/Test/blob/master/README.md#ros-installation)
-- [Pod installation](https://github.com/Michielskilian/Test/blob/master/README.md#pod-installation)
-- [Applications](https://github.com/Michielskilian/Test/blob/master/README.md#applications)
-- [How to run the tests](https://github.com/Michielskilian/Test/blob/master/README.md#how-to-run-the-tests)
+- [General Information](https://github.com/Michielskilian/Thesis#general-information)
+- [Ubuntu installation](https://github.com/Michielskilian/Thesis#ubuntu-installation)
+- [ROS installation](https://github.com/Michielskilian/Thesis#ros-installation)
+- [Pod installation](https://github.com/Michielskilian/Thesis#pod-installation)
+- [Applications](https://github.com/Michielskilian/Thesis#applications)
+- [How to run the tests](https://github.com/Michielskilian/Thesis#how-to-run-the-tests)
 
 ## General information
 To use all of the software, you will need:
