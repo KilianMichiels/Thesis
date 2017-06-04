@@ -444,7 +444,7 @@ def checkMessages():
 
 def main(args):
 
-print('''
+    print('''
 --------------------------------------------
 TEST: Simuleer N Double’s die op het ROS
 netwerk aangesloten zijn. Wat gebeurt er?
@@ -458,7 +458,7 @@ The total time to create all the publishers will be shown at the end of the prog
 
     ''')
 
-    N = raw_input("How many Double's would you like to publish?\n")
+    N = int(raw_input("How many Double's would you like to publish?\n"))
 
     # Parameters:
     verbose = False
