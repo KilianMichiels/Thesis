@@ -283,7 +283,7 @@ To start the test:
 
 - Open FacialRecognition.xcworkspace in /Without_ROS/FacialRecognition_Database_Test/ (also see: [FacialRecognition_Database_Test](https://github.com/Michielskilian/Thesis#double1_ioswithout_rosfacialrecognition_database_test)).
 - Run the application on the iPad.
-- If there is something not working you can follow the same steps as 
+- If there is something not working you can follow the same steps as [FacialRecognition Without ROS](https://github.com/Michielskilian/Thesis#double1_ioswithout_rosfacialrecognition)
 - Wait for the motion detection to start working.
 - Press the 'Go to test page' button.
 
