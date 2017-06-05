@@ -58,13 +58,6 @@ Note 3: If this is your first time using Pods, please read [Pod installation](ht
 - Run DoubleBasicHelloWorld.xcodeproj with XCode.
 - Make sure the Double and the iPad are close enough to each other AND they are connected through Bluetooth.
 
-#### /Double1_IOS/Without_ROS/openCVTestApplication:
-
-- Open openCVTestApplication.xcworkspace in XCode.
-- Change the developer signing to your own [Apple Developer Account](https://developer.apple.com/).
-- Don't forget to run the 'pod install' command in Terminal before opening the workspace.
-- You should be able to run the project on the iPad.
-
 #### /Double1_IOS/Without_ROS/Kairos-SDK-iOS-master/KairosSDKExampleApp:
 
 - Open KairosSDKExampleApp.xcodeproj.
